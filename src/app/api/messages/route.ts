@@ -53,7 +53,7 @@ export const POST = async (request: NextRequest) => {
 
   return NextResponse.json({
     ok: true,
-    // messageId,
+    messageId,
     message: "Message has been sent",
   });
 };
